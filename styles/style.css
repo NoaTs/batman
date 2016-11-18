@@ -1,6 +1,7 @@
 html {
-  font-family: 'Ruslan Display';
-  font-size: 15px
+  font-family: 'Delius Unicase';
+  font-size: 15px;
+  background-color: #FFC300;
 }
 
 .batman {
@@ -26,9 +27,7 @@ p, li {
   line-height: 2;
   letter-spacing: 1px;
 }
-html {
-  background-color: #FFC300;
-}
+
 body {
   width: 1000px;
   margin: 0 auto;

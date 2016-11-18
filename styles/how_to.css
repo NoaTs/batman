@@ -1,8 +1,9 @@
 html {
   font-family: 'Indie Flower', cursive;
-  font-size: 15px
+  font-size: 15px;
+  background-color: white;
 }
-
+/*had to inlcude here the white background color as it was still taking yellow one from style.css*/
 
 h1 {
   font-size: 60px;
@@ -22,19 +23,19 @@ p, li {
   line-height: 2;
   letter-spacing: 1px;
 }
-html {
-  background-color: white;
-  background-image: image("thoughts.png");
-}
+
 body {
   width: 600px;
   margin: 0 auto;
   background-color: #FFC300;
   padding: 0 20px 20px 20px;
   border: 5px solid green;
-  background-image: image("thoughts.png");
-  /*This code kaputt - not displaying background image*/
+  background-image: url("../images/luftblasen.jpg");
+  background-size: contain;
 }
+  /* Finally got background image working by using an absolute path and 'url' as 'image' was wrong.
+  (opacity: 0.5;) This makes the background image transparent but need to include in html a class as otherwise it's going to make the whole site transparent*/
+
 /*This is the code for the Android logo*/
 div {margin: o; padding: 0;}
 div div {background: #A4CA39; position: relative;}
